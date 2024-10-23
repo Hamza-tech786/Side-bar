@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.main_box {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.sidebar_menu {
+    position: fixed;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #38434e;
+    transition: all 0.4s ease;
+    z-index: 100;
+}
+
+.logo {
+    text-align: start;
+    padding: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 1px solid rgba(219, 219, 219, 0.2);
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn_two {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 20px;
+    font-size: 1.1rem;
+    color: #ecf0f1;
+    transition: 0.5s ease;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.menu ul li i {
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    transition: color 0.3s ease;
+}
+
+.menu ul li:hover a {
+    color: #ecf0f1;
+}
+
+.social_media {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+}
+
+.social_media ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social_media ul a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social_media ul a:hover {
+    color: #2980b9;
+}
